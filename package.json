@@ -1,0 +1,24 @@
+{
+  "name": "cadastro_codeceptjs",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@testomatio/reporter": "^2.19.0",
+    "@wdio/selenium-standalone-service": "^8.14.0",
+    "chromedriver": "^152.0.3",
+    "codeceptjs": "^4.1.0",
+    "mochawesome": "^8.1.1",
+    "webdriverio": "^9.31.5"
+  },
+  "dependencies": {
+    "gerador-validador-cpf": "^6.3.0"
+  }
+}
